@@ -115,6 +115,7 @@
    {	
    int opcao=0;// definindo as variaveis 
    int laco=1;
+      
    
    for(laco=1;laco=1;)
    {
@@ -127,8 +128,8 @@
     printf("\t1- registrar nome\n");
     printf("\t2- consultar nomes\n");
     printf("\t3- deletar nomes\n\n");//final de menu 
-    printf("\t4- sair do sistema\nn");
-	printf("opcao:");
+    printf("\t4- sair do sistema\n\n");
+	
     
 	scanf ("%d", &opcao);//amrazenando escolha dos usuarios 
 
@@ -149,7 +150,7 @@
         break;
         
 		case 4:
-		printf("obrigado por ultilizar o sistema\n");
+		printf("obrigado por ultilizar o sistema!\n");
       	return 0;
       	break;
       	
@@ -158,9 +159,10 @@
         system("pause");	
         break;
 
-}
+    }
 
-}
+    }
+   }   
 
-}
 
+       
